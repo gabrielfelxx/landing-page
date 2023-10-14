@@ -1,0 +1,59 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+
+    width: 100%;
+    max-width: 1280px;
+}
+.main__info {
+    margin-bottom: 128px;
+    width: 100%;
+    max-width: 1280px;
+}
+.main__info .logo-movie {
+    margin-left: 60%;
+}
+.main__info p {
+    font-size: 18px;
+    margin: 24px 0 28px;
+
+    transition: all 1s ease;
+}
+.main__info p {
+    transform: scale(1);
+}
+.main__info div {
+    display: flex;
+    column-gap: 32px;
+}
+.main__info div a, .main__info div button {
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 3px;
+
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.main__info div .view__trailer {
+    background-color: var(--red);
+    transition: all 0.7s ease;
+}
+.main__info div button{
+    background: transparent;
+    border: solid 2px var(--green);
+    transition: all 0.7s ease;
+}
+.main__info div .view__trailer:hover{
+    background-color: var(--text);
+    color: var(--red);
+    opacity: 0.8;
+}
+.main__info div button:hover {
+    background: var(--green);
+    opacity: 0.8;
+}
